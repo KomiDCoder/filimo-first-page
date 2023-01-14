@@ -1,0 +1,21 @@
+.sport-live {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  direction: rtl;
+  padding: 25px;
+  color: white;
+  background: #151515;
+}
+.sport-live h3 {
+  padding-right: 10px;
+}
+.games {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.games-list {
+  display: flex;
+  padding: 0 10px;
+}

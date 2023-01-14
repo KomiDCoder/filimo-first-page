@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 10px;
+  position: relative;
+  color: white;
+}
+
+.card .card-data {
+  display: flex;
+  opacity: 0;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  background: rgba(41, 41, 41, 0.702);
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: flex-end;
+  padding: 10px;
+  transition: all 0.3s ease-in;
+}
+.card .card-data:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.card .card-data .rating span {
+  box-sizing: border-box;
+  padding-left: 10px;
+}

@@ -1,0 +1,9 @@
+.special {
+  padding: 30px;
+  direction: rtl;
+  color: white;
+  background: #151515;
+}
+.special h3 {
+  padding-right: 5px;
+}

@@ -1,0 +1,13 @@
+.roll-movie-list {
+  display: flex;
+  padding: 30px 40px;
+  padding-top: 20px;
+  direction: rtl;
+  color: white;
+}
+h3.list-title {
+  padding-right: 40px;
+  direction: rtl;
+  background: #151515;
+  color: white;
+}
